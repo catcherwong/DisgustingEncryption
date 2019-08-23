@@ -1,4 +1,4 @@
-package main
+package aes_001
 
 import (
  "crypto/cipher"
@@ -10,7 +10,7 @@ import (
 )
 
 
-func main() {
+func Show() {
 	
 	key1 := "12345678"
 	str1 := "123"

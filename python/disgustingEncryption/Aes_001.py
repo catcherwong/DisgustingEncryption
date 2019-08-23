@@ -3,6 +3,8 @@ import base64
 import hashlib
 
 class Aes_001:
+
+
     def get_sha256(self, data):
         sha256 = hashlib.sha256()
         sha256.update(data.encode("utf-8"))    
@@ -82,6 +84,3 @@ class Aes_001:
         print(dec2)        
 
 
-if  __name__ == "__main__":
-    aes = Aes_001()    
-    aes.show()
