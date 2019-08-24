@@ -6,8 +6,7 @@ namespace DisgustingEncryption
     {
         static void Main(string[] args)
         {
-
-            Aes_001.Show();
+            Aes_128_Cbc_001.Show();
             Console.ReadKey();
         }
     }

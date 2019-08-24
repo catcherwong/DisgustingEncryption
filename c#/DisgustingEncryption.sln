@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisgustingEncryption", "DisgustingEncryption\DisgustingEncryption.csproj", "{C05E3B09-14A5-4E60-9EC0-A1DB4B61CEC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisgustingEncryption", "DisgustingEncryption\DisgustingEncryption.csproj", "{C05E3B09-14A5-4E60-9EC0-A1DB4B61CEC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisgustingEncryption.Tests", "DisgustingEncryption.Tests\DisgustingEncryption.Tests.csproj", "{086BD60A-44CD-45B0-9646-3E8AA9D49F45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C05E3B09-14A5-4E60-9EC0-A1DB4B61CEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C05E3B09-14A5-4E60-9EC0-A1DB4B61CEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C05E3B09-14A5-4E60-9EC0-A1DB4B61CEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086BD60A-44CD-45B0-9646-3E8AA9D49F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086BD60A-44CD-45B0-9646-3E8AA9D49F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086BD60A-44CD-45B0-9646-3E8AA9D49F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086BD60A-44CD-45B0-9646-3E8AA9D49F45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
