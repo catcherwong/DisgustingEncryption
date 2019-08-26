@@ -13,7 +13,3 @@ class TestAes_128_CBC_001:
         ))
     def test_valid(self, key, content, expected):        
         assert aes_128_cbc_001.aes_128_cbc_001().aes_encrypt(content, key) == expected
-        
-
-# if __name__ == '__main__':
-#     TestAes_128_CBC_001.test_valid()        
