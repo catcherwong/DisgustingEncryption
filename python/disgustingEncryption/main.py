@@ -1,4 +1,4 @@
-from AES import aes_128_cbc_001, aes_128_ecb_001, aes_128_cbc_002, aes_128_ecb_002
+from AES import aes_128_cbc_001, aes_128_ecb_001, aes_128_cbc_002, aes_128_ecb_002, aes_128_ecb_003, aes_128_ecb_004
 
 
 if  __name__ == "__main__":
@@ -11,5 +11,9 @@ if  __name__ == "__main__":
     # cbc_002 = aes_128_cbc_002.aes_128_cbc_002()
     # cbc_002.show()
 
-    ecb_002 = aes_128_ecb_002.aes_128_ecb_002()
-    ecb_002.show()
+    # ecb_002 = aes_128_ecb_002.aes_128_ecb_002()
+    # ecb_002.show()
+
+    # aes_128_ecb_003.aes_128_ecb_003().show()
+
+    aes_128_ecb_004.aes_128_ecb_004().show()

@@ -1,0 +1,9 @@
+{
+    "configurations": [ {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "main.java.disgustingEncryption.Main"
+        }
+    ]
+}
